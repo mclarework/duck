@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/the_duck.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+p, h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color:lightcoral;
+}
+
+.nav {
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    border-color: deeppink;
+}
+
+.pictures {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+
+.text {
+    border: darkslateblue;
+    border-style: dotted;
+    margin:25px;
+    padding: 0px 10px 0px 10px;
+}
+
+.square {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: fuchsia;
+    margin-left: auto;
+    margin-right: auto
+
+}
